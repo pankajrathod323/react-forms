@@ -1,7 +1,8 @@
 import { useState } from 'react';
-// import './App.css';
+import './App.css';
 import { Comment } from './Comment';
 import { CommentForm } from './CommentForm';
+import { Joker } from './joker';
 
 function App() {
   const [comments, setComments] = useState([
@@ -18,8 +19,10 @@ function App() {
 
   return (
     <>
+      <Joker />
+      {/* <hr />
       <CommentForm addComment={addComment} />
-      <Comment comments={comments} />
+      <Comment comments={comments} /> */}
     </>
   );
 }
