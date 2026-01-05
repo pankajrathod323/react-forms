@@ -1,0 +1,26 @@
+.CommentContainer {
+  margin-top: 20px;
+}
+
+.Comment {
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.Comment h3 {
+  color: #333;
+  text-align: center;
+}
+
+.Comment h4 {
+  margin: 0 0 5px 0;
+  color: #007bff;
+}
+
+.Comment p {
+  margin: 0;
+  color: #555;
+}

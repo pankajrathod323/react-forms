@@ -1,0 +1,42 @@
+.CommentForm {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.CommentForm h1 {
+  text-align: center;
+  color: #333;
+}
+
+.CommentForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.CommentForm label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.CommentForm input,
+.CommentForm textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.CommentForm button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.CommentForm button:hover {
+  background-color: #0056b3;
+}
